@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+  font-style: normal;
+}
+.text h1 {
+  width: 531px;
+  height: 240px;
+  color: white;
+  margin-top: 111px;
+  margin-left: 105px;
+
+  font-size: 70px;
+  font-weight: 700;
+}
+.text p {
+  /* font-weight: 400; */
+  width: 506px;
+  height: 78px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 106px;
+}
+.container {
+  display: flex;
+  /* justify-content: center; */
+}
+.text img {
+  width: 581px;
+  height: 613px;
+  left: 801px;
+  top: 83px;
+  border-radius: 5px;
+  margin-top: 33px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.big {
+  background-color: black;
+
+  width: 1321px;
+  height: 646px;
+  left: 140px;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+.button {
+  font-size: 20px;
+  padding: 16px 25px;
+  gap: 10px;
+  background-color: rgb(183, 10, 10);
+  color: white;
+  width: 187px;
+  height: 56px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 105px;
+}
+/* end top view */
+.mid {
+  padding-top: 130px;
+  display: flex;
+  width: 1321px;
+  height: 646px;
+  margin-bottom: 130px;
+}
+.football {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 17px;
+  row-gap: 24px;
+  margin-left: 24px;
+}
+.btn {
+  width: 100px;
+  height: 32px;
+  left: 496px;
+  top: 1021px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+}
+.txt p {
+  width: 272px;
+  height: 54px;
+  left: 496px;
+  top: 1068px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: black;
+}
+.grid-container {
+  display: flex;
+}
+.design-bt {
+  width: 252px;
+  height: 64px;
+  left: 170px;
+  top: 856px;
+  font-family: "Poppins";
+  font-style: normal;
+  /* width: 174px;
+  height: 30px;
+  left: 209px;
+  top: 873px; */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #161616;
+}
+.design-bt:hover {
+  background-color: rgb(183, 10, 10);
+}
+.input-button {
+  background-color: black;
+  width: 312px;
+  height: 312px;
+  /* left: 140px;
+  top: 826px; */
+  border-radius: 10px;
+  padding-left: 30px;
+  justify-content: center;
+}
+
+.gaph {
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.players {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: 300px;
+  background-color: black;
+  height: 444px;
+  width: 1670px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.write {
+  padding-top: 130px;
+}
+.hr {
+  margin-top: 50px;
+  width: 1320px;
+}
+.space {
+  display: inline-block;
+  padding-right: 50px;
+}
+.space a {
+  text-decoration: none;
+  color: white;
+}
+/* media query */
+@media only screen and (max-width: 688px) {
+  .big {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .text h1 {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    font-weight: 700;
+    width: 228px;
+    height: 66px;
+    padding-right: 70px;
+  }
+  .text p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 258px;
+    height: 48px;
+    left: 59px;
+    top: 146px;
+    line-height: 24px;
+    margin-left: 70px;
+  }
+  .text img {
+    width: 233px;
+    height: 245px;
+    align-items: center;
+    left: 84px;
+    top: 271px;
+    padding-left: 100px;
+  }
+
+  .text button {
+    padding-top: 10px;
+    width: 161px;
+    height: 40px;
+    left: 108px;
+    top: 210px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    padding: 8px 12px;
+    gap: 10px;
+    margin-left: 120px;
+  }
+  .input-button {
+    background-color: none;
+  }
+  .footer {
+    display: none;
+  }
+}
